@@ -57,3 +57,41 @@ h1{
 h2{
     color:blue;
 }
+#B-Section {
+    min-height: 400px;
+    height: 88vh;
+    max-height: 600px;
+    background-image:url("images\0da77d61.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#B-Section .top {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+gap: 20px;
+}
+
+.outer-part {
+background-color: wheat;
+border-radius: 16px;
+padding: 16px 16px;
+display: flex;
+gap: 14px;
+}
+
+.inner-part {
+border: 1px solid grey;
+border-radius: 8px;
+display: flex;
+align-items: center;
+gap: 10px;
+flex: 1;
+padding: 10px 12px;
+}
+
+.inner-part img {
+width: 30px;
+height: auto;
+}
