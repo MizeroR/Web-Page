@@ -5,60 +5,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-size: 18px;
+input {
+    min-width: 0;
+    font-size: 20px;
+}
+input::placeholder {
+    color: grey;
+  }
+.top {
+padding-inline: 30px;
+max-width: 1400px;
+margin-inline: auto;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+p {
+color: inherit;
+}
+  
+section {
+padding-block: 40px;
+}
+
+header {
+background-color: white;
+padding-block: 16px;
+color: grey;
+}
+
+header .top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+  
+ul {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 24px;
+font-weight: 500;
 }
 h1{
     color:blue;
 }
-main {
-    width: 100%;
-    height: auto;
-}
-.menu {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    gap: 1.5rem;
-}
-.menu li {
-    list-style: none;
-    cursor: pointer;
-    padding: 1rem 2rem;
-    border-radius: 30px;
-}
-.top-header{
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-    color: inherit;
-}
-.image-conts {
-    position: relative; /* Allows absolute positioning for child elements */
-    width: 600px;       /* Match the width of the image */
-    height: 400px;
-}
-
-.image-conts img {
-    width: 100%;        /* Make the image fill the container */
-    height: 100%;       /* Make the image fill the container */
-    object-fit: cover;
-}
-.bookings {
-    position: absolute;
-    text-align: center;
-    color: white;
-}
-
-.bookings p {
-    font-size: 2rem;
-}
-
-.bookings button {
-    margin-top: 10px;
+h2{
+    color:blue;
 }
