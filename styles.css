@@ -38,6 +38,31 @@ a{
     text-decoration: none;
     color: inherit;
 }
-.explore-bar {
-    align-items:center;
+.image-conts {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-conts img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bookings {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.bookings p {
+    font-size: 2rem;
+}
+
+.bookings button {
+    margin-top: 10px;
 }
